@@ -1,0 +1,21 @@
+check_name,severity,violations,status
+application below posting min CGPA,ERROR,0,PASS
+application to a posting of another placement cycle,ERROR,0,PASS
+application dated before its posting,ERROR,0,PASS
+interview round dated before its application,ERROR,0,PASS
+application whose round numbers are not 1..n,ERROR,0,PASS
+REJECT/SELECT round that is not the last round,ERROR,0,PASS
+SELECTED application without a SELECT round,ERROR,0,PASS
+REJECTED application with rounds but no REJECT round,ERROR,0,PASS
+SELECTED application whose student has no PLACED outcome,ERROR,0,PASS
+PLACED outcome without a SELECTED application at that posting,ERROR,0,PASS
+PLACED outcome whose offer_ctc differs from the posting CTC,ERROR,0,PASS
+PLACED outcome whose offer_date differs from the SELECT round date,ERROR,0,PASS
+posting whose requirement weights do not sum to 1.00,ERROR,0,PASS
+posting without any requirement,ERROR,0,PASS
+Placement_Probability row outside the student's cycle,ERROR,0,PASS
+student without any skill,WARN,0,PASS
+student without a placement outcome row,WARN,0,PASS
+running application on a CLOSED posting,WARN,0,PASS
+"own-cycle (student, posting) pair without a match score",WARN,0,PASS
+match-refresh queue entries still PENDING,WARN,0,PASS

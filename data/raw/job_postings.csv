@@ -1,0 +1,81 @@
+posting_id,company_id,role_title,ctc,min_cgpa,posted_date,status
+1,1,Software Development Engineer,40.5,7.5,2024-11-28,OPEN
+2,1,Data Engineer,44.0,8.0,2025-01-01,OPEN
+3,2,Software Engineer,35.0,8.0,2024-10-30,OPEN
+4,2,Machine Learning Engineer,29.0,8.0,2024-08-01,OPEN
+5,3,Computer Scientist,42.0,7.5,2024-09-28,OPEN
+6,3,Full Stack Developer,20.5,7.5,2024-10-27,OPEN
+7,4,Embedded Software Engineer,19.0,7.5,2024-12-25,OPEN
+8,4,VLSI Design Engineer,24.5,7.5,2024-10-13,OPEN
+9,5,SDE-1,40.5,7.5,2024-09-14,OPEN
+10,5,Data Analyst,36.0,7.5,2025-01-30,OPEN
+11,6,Software Engineer (Backend),18.5,8.0,2024-11-28,OPEN
+12,6,Data Scientist,18.5,7.0,2024-08-23,OPEN
+13,7,Network Engineer,12.5,7.0,2024-11-15,OPEN
+14,8,Business Analyst,9.5,6.5,2024-10-08,OPEN
+15,9,Backend Developer,14.0,7.0,2025-01-09,OPEN
+16,9,QA Engineer,14.0,7.5,2024-09-24,OPEN
+17,10,Embedded Software Engineer,13.5,7.0,2024-09-08,OPEN
+18,11,Backend Developer,9.0,7.5,2025-01-15,OPEN
+19,11,Android Developer,13.0,6.5,2025-01-03,OPEN
+20,12,QA Automation Engineer,15.5,7.0,2025-01-09,OPEN
+21,13,Cloud & DevOps Engineer,14.5,7.5,2024-11-28,OPEN
+22,13,Data Analyst,12.0,7.0,2024-10-10,OPEN
+23,14,Software Engineer,13.5,7.5,2024-10-20,OPEN
+24,15,Systems Engineer,5.0,7.0,2024-11-13,OPEN
+25,15,Digital Developer,7.0,6.0,2024-10-25,OPEN
+26,16,Systems Engineer,6.5,6.5,2024-11-23,OPEN
+27,16,Specialist Programmer,5.0,6.5,2025-01-02,OPEN
+28,17,Project Engineer,6.5,7.0,2024-12-28,OPEN
+29,17,Test Engineer,6.0,6.5,2024-10-24,OPEN
+30,18,Associate Software Engineer,6.5,6.5,2024-09-11,OPEN
+31,18,Cloud Associate,6.0,6.0,2024-08-08,OPEN
+32,19,Programmer Analyst Trainee,5.5,7.0,2024-10-15,OPEN
+33,19,Data Analyst Trainee,6.0,6.5,2024-11-27,OPEN
+34,20,Graduate Engineer Trainee,5.0,6.0,2025-01-18,OPEN
+35,20,Cybersecurity Analyst,3.5,6.0,2025-01-10,OPEN
+36,21,Software Engineer,4.5,6.5,2025-01-24,OPEN
+37,21,Network Support Engineer,6.0,6.0,2024-08-14,OPEN
+38,22,Analyst,5.5,6.0,2024-09-21,OPEN
+39,22,QA Analyst,7.0,7.0,2024-09-08,OPEN
+40,1,Software Development Engineer,27.0,7.5,2025-10-15,OPEN
+41,1,Data Engineer,38.0,8.0,2025-11-14,OPEN
+42,2,Software Engineer,44.5,7.5,2025-11-12,OPEN
+43,2,Machine Learning Engineer,41.0,7.0,2025-08-24,OPEN
+44,3,Computer Scientist,32.0,7.0,2025-09-16,OPEN
+45,3,Full Stack Developer,20.5,8.0,2025-10-31,OPEN
+46,4,Embedded Software Engineer,20.5,7.5,2025-11-14,OPEN
+47,4,VLSI Design Engineer,24.5,7.5,2025-08-24,OPEN
+48,5,SDE-1,28.5,7.0,2025-12-16,OPEN
+49,5,Data Analyst,42.5,8.0,2026-01-28,OPEN
+50,6,Software Engineer (Backend),25.5,7.5,2025-08-21,OPEN
+51,6,Data Scientist,27.5,7.5,2025-09-29,OPEN
+52,7,Network Engineer,8.5,7.5,2026-01-02,OPEN
+53,7,Software Engineer,12.5,7.5,2025-10-31,OPEN
+54,8,Data Analyst,15.5,6.5,2025-08-17,OPEN
+55,9,Backend Developer,15.5,7.5,2025-11-09,OPEN
+56,9,QA Engineer,9.0,7.0,2025-10-21,OPEN
+57,10,Embedded Software Engineer,14.0,7.0,2025-08-16,OPEN
+58,10,IoT Engineer,12.0,7.0,2025-11-11,OPEN
+59,11,Backend Developer,13.5,7.5,2025-08-17,OPEN
+60,11,Android Developer,9.0,7.5,2025-08-12,OPEN
+61,12,Associate Full Stack Developer,10.0,7.0,2025-11-28,OPEN
+62,12,QA Automation Engineer,15.0,7.5,2025-09-22,OPEN
+63,13,Cloud & DevOps Engineer,12.5,7.0,2025-11-29,OPEN
+64,14,Data Engineer,8.0,7.5,2025-08-15,OPEN
+65,15,Systems Engineer,5.0,6.0,2025-10-13,OPEN
+66,15,Digital Developer,7.0,6.0,2025-11-05,OPEN
+67,16,Systems Engineer,5.0,7.0,2025-08-06,OPEN
+68,16,Specialist Programmer,7.0,7.0,2025-12-31,OPEN
+69,17,Project Engineer,6.5,7.0,2025-12-17,OPEN
+70,17,Test Engineer,4.5,7.0,2025-10-07,OPEN
+71,18,Associate Software Engineer,5.0,7.0,2025-11-07,OPEN
+72,18,Cloud Associate,4.5,7.0,2025-11-20,OPEN
+73,19,Programmer Analyst Trainee,3.5,6.5,2025-08-04,OPEN
+74,19,Data Analyst Trainee,7.0,6.5,2025-12-13,OPEN
+75,20,Graduate Engineer Trainee,3.5,7.0,2026-01-12,OPEN
+76,20,Cybersecurity Analyst,7.0,7.0,2025-11-04,OPEN
+77,21,Software Engineer,7.0,6.5,2025-08-04,OPEN
+78,21,Network Support Engineer,4.5,6.5,2025-12-09,OPEN
+79,22,Analyst,5.5,6.5,2026-01-05,OPEN
+80,22,QA Analyst,6.0,6.0,2025-08-17,OPEN

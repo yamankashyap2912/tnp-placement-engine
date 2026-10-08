@@ -1,0 +1,16 @@
+# Optional: a ready MySQL 8 server if you do not want to install one.
+#   docker compose up -d
+# then in .env:  TNP_DB_HOST=127.0.0.1  TNP_ADMIN_USER=root  TNP_ADMIN_PASSWORD=rootpass
+# NOTE: roles are created for host 'localhost' in 08_security.sql; inside Docker connect through
+# the container, or change the account host to '%' in sql/08_security.sql.
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: tnp-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+    ports: ["3306:3306"]
+    command: ["--local-infile=0", "--log-bin-trust-function-creators=1"]
+    volumes: ["tnp_mysql_data:/var/lib/mysql"]
+volumes:
+  tnp_mysql_data:

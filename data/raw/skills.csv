@@ -1,0 +1,50 @@
+skill_id,skill_name,category
+1,C,Programming
+2,C++,Programming
+3,Java,Programming
+4,Python,Programming
+5,JavaScript,Programming
+6,Kotlin,Programming
+7,Data Structures & Algorithms,Core CS
+8,Object-Oriented Programming,Core CS
+9,Operating Systems,Core CS
+10,Computer Networks,Core CS
+11,System Design,Core CS
+12,SQL,Data & AI
+13,MySQL,Data & AI
+14,MongoDB,Data & AI
+15,HTML/CSS,Framework
+16,React,Framework
+17,Node.js,Framework
+18,REST APIs,Framework
+19,Flask/Django,Framework
+20,Machine Learning,Data & AI
+21,Deep Learning,Data & AI
+22,NLP,Data & AI
+23,Pandas/NumPy,Data & AI
+24,Scikit-learn,Data & AI
+25,TensorFlow/PyTorch,Data & AI
+26,Statistics,Data & AI
+27,Data Visualization,Data & AI
+28,Excel,Data & AI
+29,Git/GitHub,Tools & DevOps
+30,Linux,Tools & DevOps
+31,Docker,Tools & DevOps
+32,AWS,Tools & DevOps
+33,CI/CD,Tools & DevOps
+34,Kubernetes,Tools & DevOps
+35,Manual Testing,Testing
+36,Selenium,Testing
+37,Test Automation,Testing
+38,Cybersecurity Fundamentals,Core CS
+39,Cisco Networking (CCNA),Core CS
+40,Embedded C,Core CS
+41,Microcontrollers,Core CS
+42,Digital Electronics,Core CS
+43,VLSI/Verilog,Core CS
+44,IoT,Core CS
+45,Signal Processing,Core CS
+46,Communication,Soft Skill
+47,Teamwork,Soft Skill
+48,Problem Solving,Soft Skill
+49,Leadership,Soft Skill

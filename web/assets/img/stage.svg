@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="rock" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".006 .011" numOctaves="6" seed="11" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 .62  0 0 0 0 .62  0 0 0 0 .63  .9 .9 .9 0 -.75" result="m"/>
+      <feTurbulence type="turbulence" baseFrequency=".02 .035" numOctaves="3" seed="4" result="t"/>
+      <feColorMatrix in="t" type="matrix" values="0 0 0 0 .96  0 0 0 0 .96  0 0 0 0 .97  1.2 0 0 0 -.45" result="snow"/>
+      <feComposite in="snow" in2="m" operator="over"/>
+    </filter>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9bbc0"/><stop offset="1" stop-color="#d9dadd"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/>
+  <rect width="1600" height="1000" filter="url(#rock)" opacity=".95"/>
+</svg>

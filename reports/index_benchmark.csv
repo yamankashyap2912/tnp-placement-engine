@@ -1,0 +1,7 @@
+index,query,ms_without,ms_with,speedup_x,plan_without,plan_with
+idx_ms_posting_score,shortlist: top 20 for a posting,47.75,1.52,31.5,"ALL (None, ~289527 rows)","ref (idx_ms_posting_score, ~4069 rows)"
+idx_students_cohort,cohort filter: batch + branch + CGPA,1.94,0.27,7.1,"ALL (None, ~7307 rows)","range (idx_students_cohort, ~356 rows)"
+idx_pp_cycle_prob,early-warning scan,2.03,0.31,6.7,"ALL (None, ~7225 rows)","range (idx_pp_cycle_prob, ~1725 rows)"
+idx_po_status_ctc,placed students by CTC,2.91,1.71,1.7,"ALL (None, ~7225 rows)","range (idx_po_status_ctc, ~458 rows)"
+idx_ir_type_result,funnel: pass rate per round type,13.71,1.67,8.2,"ALL (None, ~80324 rows)","ref (idx_ir_type_result, ~5211 rows)"
+idx_app_date,applications in a date window,9.28,1.41,6.6,"ALL (None, ~30884 rows)","range (idx_app_date, ~3712 rows)"

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f8fcf"/><stop offset=".38" stop-color="#8eb0dd"/>
+      <stop offset=".62" stop-color="#cdbfd2"/><stop offset=".78" stop-color="#f1c9ad"/><stop offset="1" stop-color="#f5d9c2"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9b4cb"/><stop offset=".45" stop-color="#d4d8e6"/><stop offset="1" stop-color="#eceef6"/>
+    </linearGradient>
+    <linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa0c6"/><stop offset="1" stop-color="#c3b7cb"/></linearGradient>
+    <linearGradient id="mtnNear" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b7fa8"/><stop offset="1" stop-color="#a7a3bd"/></linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#e6e9f5"/><stop offset="1" stop-color="#b9bfd8"/>
+    </linearGradient>
+    <linearGradient id="roofUnder" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9cfe6"/><stop offset="1" stop-color="#8f97b8"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffc58f"/><stop offset=".5" stop-color="#ff9b64"/><stop offset="1" stop-color="#7a4252"/>
+    </linearGradient>
+    <linearGradient id="slab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c7cce2"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffb978" stop-opacity=".75"/><stop offset="1" stop-color="#ffb978" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff2de" stop-opacity=".95"/><stop offset="1" stop-color="#fff2de" stop-opacity="0"/></radialGradient>
+    <filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="bodyClip"><path d="M860 470 C 980 440 1230 440 1400 480 C 1470 497 1520 530 1535 566 L 1535 640 L 860 640 Z"/></clipPath>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="860" cy="560" r="380" fill="url(#sun)"/>
+  <g filter="url(#blur30)" opacity=".7">
+    <ellipse cx="260" cy="190" rx="260" ry="46" fill="#ffffff" opacity=".55"/>
+    <ellipse cx="760" cy="120" rx="320" ry="38" fill="#ffffff" opacity=".4"/>
+    <ellipse cx="1350" cy="230" rx="280" ry="40" fill="#fff" opacity=".5"/>
+    <ellipse cx="520" cy="410" rx="380" ry="30" fill="#f7e2d2" opacity=".6"/>
+  </g>
+  <!-- far and near mountains -->
+  <path d="M0 520 L110 455 L190 500 L300 420 L430 505 L520 470 L640 540 L770 455 L900 530 L1010 470 L1150 535 L1270 440 L1390 520 L1500 470 L1600 520 L1600 640 L0 640 Z" fill="url(#mtnFar)" opacity=".85"/>
+  <path d="M300 420 L330 452 L305 446 L285 462 Z M770 455 L798 486 L772 480 L752 494 Z M1270 440 L1300 470 L1272 464 L1252 480 Z" fill="#f4f1f8" opacity=".85"/>
+  <path d="M0 585 L150 520 L260 575 L400 500 L560 585 L700 540 L860 600 L1000 560 L1200 610 L1380 545 L1600 600 L1600 700 L0 700 Z" fill="url(#mtnNear)" opacity=".9"/>
+  <!-- snowfield -->
+  <path d="M0 640 C 300 620 600 640 900 628 C 1200 616 1450 640 1600 630 L1600 900 L0 900 Z" fill="url(#ground)"/>
+  <path d="M0 700 C 260 676 520 706 820 690 C 1120 676 1380 700 1600 688 L1600 900 L0 900 Z" fill="#f4f5fb" opacity=".7"/>
+  <g transform="translate(-250 6)">
+  <!-- pavilion -->
+  <ellipse cx="1200" cy="650" rx="470" ry="22" fill="#6e6d92" opacity=".35" filter="url(#blur8)"/>
+  <ellipse cx="1180" cy="560" rx="420" ry="130" fill="url(#glow)" filter="url(#blur30)"/>
+  <g clip-path="url(#bodyClip)">
+    <rect x="840" y="430" width="720" height="230" fill="url(#glass)"/>
+    <g stroke="#fff4e4" stroke-opacity=".55" stroke-width="3">
+      <path d="M940 440 V640 M1020 436 V640 M1100 436 V640 M1180 436 V640 M1260 440 V640 M1340 446 V640 M1420 456 V640 M1490 476 V640"/>
+    </g>
+    <path d="M870 470 L1520 500 L1520 520 L870 492 Z" fill="#fff" opacity=".25"/>
+    <g fill="#3b2a48" opacity=".55">
+      <rect x="905" y="575" width="80" height="26" rx="10"/><rect x="1060" y="580" width="110" height="22" rx="9"/>
+      <rect x="1250" y="572" width="70" height="30" rx="12"/><rect x="1380" y="580" width="90" height="22" rx="9"/>
+    </g>
+    <g fill="#fff1d6">
+      <circle cx="990" cy="500" r="7"/><circle cx="1130" cy="508" r="7"/><circle cx="1280" cy="505" r="7"/><circle cx="1410" cy="515" r="7"/>
+    </g>
+    <rect x="1000" y="470" width="52" height="170" fill="#3d3a74" opacity=".35"/>
+    <rect x="1330" y="470" width="52" height="170" fill="#3d3a74" opacity=".3"/>
+  </g>
+  <!-- sweeping roof -->
+  <path d="M760 520 C 790 420 1020 380 1260 410 C 1420 430 1540 480 1566 566 C 1440 490 1250 462 1040 478 C 900 490 800 520 760 520 Z" fill="url(#roof)"/>
+  <path d="M760 520 C 800 520 900 490 1040 478 C 1250 462 1440 490 1566 566 C 1420 520 1250 500 1060 512 C 920 522 820 550 760 520 Z" fill="url(#roofUnder)" opacity=".85"/>
+  <path d="M830 440 C 940 400 1120 392 1290 420" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity=".8"/>
+  <!-- lower slab -->
+  <path d="M700 628 C 760 606 980 612 1240 624 C 1440 634 1560 628 1590 650 C 1500 670 1100 676 860 670 C 760 666 690 650 700 628 Z" fill="url(#slab)"/>
+  <path d="M700 628 C 690 650 760 666 860 670 C 1100 676 1500 670 1590 650 L1590 660 C 1500 684 1100 690 860 684 C 740 680 680 660 700 628 Z" fill="#9aa0c2" opacity=".55"/>
+  <!-- low shrubs -->
+  <g fill="#5b6a86" opacity=".7"><ellipse cx="760" cy="676" rx="34" ry="12"/><ellipse cx="1540" cy="668" rx="40" ry="12"/><ellipse cx="1030" cy="690" rx="26" ry="9"/></g>
+  </g>
+</svg>

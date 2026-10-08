@@ -1,0 +1,50 @@
+skill_id,skill_name,original_category,guide_category
+1,C,Programming,Programming
+2,C++,Programming,Programming
+3,Java,Programming,Programming
+4,Python,Programming,Programming
+5,JavaScript,Programming,Programming
+6,Kotlin,Programming,Programming
+7,Data Structures & Algorithms,CS Fundamentals,Core CS
+8,Object-Oriented Programming,CS Fundamentals,Core CS
+9,Operating Systems,CS Fundamentals,Core CS
+10,Computer Networks,CS Fundamentals,Core CS
+11,System Design,CS Fundamentals,Core CS
+12,SQL,Database,Data & AI
+13,MySQL,Database,Data & AI
+14,MongoDB,Database,Data & AI
+15,HTML/CSS,Web Development,Framework
+16,React,Web Development,Framework
+17,Node.js,Web Development,Framework
+18,REST APIs,Web Development,Framework
+19,Flask/Django,Web Development,Framework
+20,Machine Learning,Data & ML,Data & AI
+21,Deep Learning,Data & ML,Data & AI
+22,NLP,Data & ML,Data & AI
+23,Pandas/NumPy,Data & ML,Data & AI
+24,Scikit-learn,Data & ML,Data & AI
+25,TensorFlow/PyTorch,Data & ML,Data & AI
+26,Statistics,Data & ML,Data & AI
+27,Data Visualization,Data & ML,Data & AI
+28,Excel,Data & ML,Data & AI
+29,Git/GitHub,DevOps & Cloud,Tools & DevOps
+30,Linux,DevOps & Cloud,Tools & DevOps
+31,Docker,DevOps & Cloud,Tools & DevOps
+32,AWS,DevOps & Cloud,Tools & DevOps
+33,CI/CD,DevOps & Cloud,Tools & DevOps
+34,Kubernetes,DevOps & Cloud,Tools & DevOps
+35,Manual Testing,Testing,Testing
+36,Selenium,Testing,Testing
+37,Test Automation,Testing,Testing
+38,Cybersecurity Fundamentals,Security & Networking,Core CS
+39,Cisco Networking (CCNA),Security & Networking,Core CS
+40,Embedded C,Embedded & Electronics,Core CS
+41,Microcontrollers,Embedded & Electronics,Core CS
+42,Digital Electronics,Embedded & Electronics,Core CS
+43,VLSI/Verilog,Embedded & Electronics,Core CS
+44,IoT,Embedded & Electronics,Core CS
+45,Signal Processing,Embedded & Electronics,Core CS
+46,Communication,Soft Skills,Soft Skill
+47,Teamwork,Soft Skills,Soft Skill
+48,Problem Solving,Soft Skills,Soft Skill
+49,Leadership,Soft Skills,Soft Skill
