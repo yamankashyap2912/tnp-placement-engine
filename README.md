@@ -2,7 +2,6 @@
 ### Placement Probability & Company-Student Matching Engine
 
 DBMS + AI/ML main project · IIIT Bhopal Training & Placement cell
-**Team:** Chaitanya, Karthikeya, Kashvith, Yash Dev, Yaman Kashyap
 
 ![Placement Atlas home](docs/screenshots/02-admin-home.png)
 
@@ -324,3 +323,34 @@ serve over HTTPS behind a proxy, restrict the database accounts' host, schedule 
 | `docs/PDF_COMPLIANCE.md` | the project PDF mapped to what was built, and every deviation |
 | `docs/VIVA_GUIDE.md` | demo script and likely questions with answers |
 | `reports/evaluation_report.md` | generated model and database evaluation |
+
+---
+
+## 🚀 Project Vision
+
+**Placement Atlas** is designed to transform traditional college placement management into a **data-driven, intelligent, and scalable platform**.
+
+By combining **DBMS engineering, analytics, eligibility matching, and machine learning**, the system helps Training & Placement teams make faster and more informed decisions while giving students a clearer view of their placement journey.
+
+The project demonstrates practical implementation of:
+
+- Database design and normalization
+- SQL constraints, triggers, procedures, indexes, and transactions
+- Role-based placement management
+- Intelligent student–job matching
+- Placement analytics and dashboards
+- Machine learning for placement prediction and risk identification
+- REST API and responsive web application architecture
+
+---
+
+## 👨‍💻 Author
+
+**Yaman Kashyap**  
+B.Tech CSE (AI) | IIIT Bhopal
+
+> Built as a practical DBMS and intelligent placement-management project, combining software engineering, database systems, and machine learning into one unified platform.
+
+⭐ **If you find this project useful, consider giving the repository a star!**
+
+---
