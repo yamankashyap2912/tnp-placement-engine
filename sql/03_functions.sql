@@ -2,10 +2,6 @@
 -- 03_functions.sql  --  Stored functions used by triggers, procedures and views
 -- =============================================================================
 
--- =============================================================================
--- 03_functions.sql  --  Stored functions used by triggers, procedures and views
--- =============================================================================
-
 DELIMITER $$
 
 -- Placement cycle of a posting date. The recruiting season runs Aug -> Jul and a
@@ -38,23 +34,6 @@ END$$
 
 -- Human readable band for a match score (used in reports / dashboards).
 DROP FUNCTION IF EXISTS fn_match_band$$
-CREATE FUNCTION fn_match_band(p_score DECIMAL(5,4))
-RETURNS VARCHAR(10)
-DETERMINISTIC
-NO SQL
-BEGIN
-    RETURN CASE
-             WHEN p_score IS NULL THEN 'UNKNOWN'
-             WHEN p_score >= 0.7500 THEN 'STRONG'
-             WHEN p_score >= 0.5000 THEN 'GOOD'
-             WHEN p_score >= 0.3000 THEN 'FAIR'
-             ELSE 'WEAK'
-           END;
-END$$
-
-DELIMITER ;
-
--- Human readable band for a match score (used in reports / dashboards).
 CREATE FUNCTION fn_match_band(p_score DECIMAL(5,4))
 RETURNS VARCHAR(10)
 DETERMINISTIC
