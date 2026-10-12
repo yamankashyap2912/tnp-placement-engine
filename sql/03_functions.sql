@@ -13,13 +13,13 @@ DETERMINISTIC
 NO SQL
 BEGIN
     RETURN YEAR(p_date) + IF(MONTH(p_date) >= 8, 1, 0);
-END$$
+END
 
 -- Is the student allowed to apply to the posting?  1 = eligible, 0 = not.
 -- Rules: CGPA >= min_cgpa  AND  posting belongs to the student's own cycle.
 CREATE FUNCTION fn_is_eligible(p_student_id INT UNSIGNED, p_posting_id INT UNSIGNED)
 RETURNS TINYINT
-NOT DETERMINISTIC
+READS SQL DATA
 READS SQL DATA
 BEGIN
     DECLARE v_ok TINYINT DEFAULT 0;
